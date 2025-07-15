@@ -1,0 +1,18 @@
+<launch>
+  <node pkg="tile_ground_segmentation" type="tile_ground_segmentation_node" name="tile_ground_segmentation_node" output="screen">
+    <param name="input_topic" value="/camera/depth/color/points" />
+    <param name="leaf_size" value="0.05" />
+    <param name="roi_x_min" value="0.0" />
+    <param name="roi_x_max" value="6.0" />
+    <param name="roi_y_min" value="-5.0" />
+    <param name="roi_y_max" value="5.0" />
+    <param name="roi_z_min" value="-1.0" />
+    <param name="roi_z_max" value="2.0" />
+    <param name="tile_size" value="0.5" />
+    <param name="z_bin_size" value="0.05" />
+    <param name="z_bin_min_points" value="50" />
+    <param name="max_slope" value="0.15" />
+    <param name="publish_ground_est_cloud" value="true" />
+    <param name="obstacle_height_thresh" value="0.2" />
+  </node>
+</launch>

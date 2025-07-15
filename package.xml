@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tile_ground_segmentation</name>
+  <version>0.1.0</version>
+  <description>Tile-based ground segmentation for point clouds in ROS1 Noetic.</description>
+  <maintainer email="user@todo.com">TODO: Maintainer Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>nav_msgs</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>
